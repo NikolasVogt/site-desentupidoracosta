@@ -12,3 +12,21 @@
         width: 165px;
     }
 }
+/* Tamanho da logo */
+.logo-header {
+    display: block;
+    width: 190px;
+    height: auto;
+}
+
+/* Cabeçalho deixa de acompanhar a rolagem */
+.top {
+    position: static;
+}
+
+/* Ajuste para celular */
+@media (max-width: 540px) {
+    .logo-header {
+        width: 150px;
+    }
+}
