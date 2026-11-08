@@ -30,3 +30,99 @@
         width: 150px;
     }
 }
+
+
+/* NOVA IDENTIDADE VISUAL - PRETO E CINZA */
+
+:root {
+    --dark: #202020;
+    --black: #171717;
+    --gray: #666666;
+    --accent: #d6d6d6;
+}
+
+/* Fundo e textos */
+body {
+    background: #f7f7f7;
+    color: #171717;
+}
+
+/* Cabeçalho */
+.top {
+    background: #f5f5f5;
+    border-bottom: 1px solid #d5d5d5;
+    position: static;
+}
+
+/* Destaque principal */
+.hero {
+    background: linear-gradient(120deg, #121212, #292929);
+    color: #ffffff;
+}
+
+.hero h1 em {
+    color: #dedede;
+}
+
+.hero p {
+    color: #eeeeee;
+}
+
+.eyebrow {
+    background: #303030;
+    border-color: #626262;
+}
+
+/* Botões */
+.light {
+    background: #d6d6d6;
+    color: #171717;
+}
+
+.outline {
+    background: #f2f2f2;
+    color: #171717;
+}
+
+.dark {
+    background: #242424;
+    color: #ffffff;
+}
+
+/* Seções do site */
+.section {
+    background: #fafafa;
+}
+
+.section.muted {
+    background: #e7e7e7;
+}
+
+/* Cartões dos serviços */
+.cards article {
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 4px 15px #0000000a;
+}
+
+.cards p, .intro, .about p {
+    color: #555555;
+}
+
+/* Galeria de fotos */
+.gallery figure {
+    background: #ffffff;
+}
+
+/* Área de contato */
+.contact {
+    background: #242424;
+    color: #ffffff;
+}
+
+/* Rodapé */
+footer {
+    background: #101010;
+    color: #dddddd;
+}
+
